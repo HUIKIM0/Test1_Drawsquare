@@ -45,64 +45,69 @@ namespace Test1
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(13, 14);
+            this.panel1.Location = new System.Drawing.Point(15, 18);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(877, 717);
+            this.panel1.Size = new System.Drawing.Size(1002, 896);
             this.panel1.TabIndex = 0;
             // 
             // txtX
             // 
-            this.txtX.Location = new System.Drawing.Point(969, 11);
+            this.txtX.Location = new System.Drawing.Point(1107, 14);
+            this.txtX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtX.Name = "txtX";
-            this.txtX.Size = new System.Drawing.Size(100, 21);
+            this.txtX.Size = new System.Drawing.Size(114, 25);
             this.txtX.TabIndex = 1;
             // 
             // txtY
             // 
-            this.txtY.Location = new System.Drawing.Point(969, 39);
+            this.txtY.Location = new System.Drawing.Point(1107, 49);
+            this.txtY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtY.Name = "txtY";
-            this.txtY.Size = new System.Drawing.Size(100, 21);
+            this.txtY.Size = new System.Drawing.Size(114, 25);
             this.txtY.TabIndex = 2;
             // 
             // txtZ
             // 
-            this.txtZ.Location = new System.Drawing.Point(969, 67);
+            this.txtZ.Location = new System.Drawing.Point(1107, 84);
+            this.txtZ.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtZ.Name = "txtZ";
-            this.txtZ.Size = new System.Drawing.Size(100, 21);
+            this.txtZ.Size = new System.Drawing.Size(114, 25);
             this.txtZ.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(925, 14);
+            this.label1.Location = new System.Drawing.Point(1057, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 12);
+            this.label1.Size = new System.Drawing.Size(58, 15);
             this.label1.TabIndex = 4;
             this.label1.Text = "가로(x)";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(925, 42);
+            this.label2.Location = new System.Drawing.Point(1057, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 12);
+            this.label2.Size = new System.Drawing.Size(57, 15);
             this.label2.TabIndex = 5;
             this.label2.Text = "세로(y)";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(925, 70);
+            this.label3.Location = new System.Drawing.Point(1057, 88);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 12);
+            this.label3.Size = new System.Drawing.Size(57, 15);
             this.label3.TabIndex = 6;
             this.label3.Text = "높이(z)";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(912, 97);
+            this.button1.Location = new System.Drawing.Point(1042, 121);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 75);
+            this.button1.Size = new System.Drawing.Size(94, 94);
             this.button1.TabIndex = 7;
             this.button1.Text = "만들기";
             this.button1.UseVisualStyleBackColor = true;
@@ -110,9 +115,10 @@ namespace Test1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1000, 97);
+            this.button2.Location = new System.Drawing.Point(1143, 121);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 74);
+            this.button2.Size = new System.Drawing.Size(91, 92);
             this.button2.TabIndex = 8;
             this.button2.Text = "변경";
             this.button2.UseVisualStyleBackColor = true;
@@ -121,35 +127,35 @@ namespace Test1
             // la1
             // 
             this.la1.AutoSize = true;
-            this.la1.Location = new System.Drawing.Point(948, 210);
+            this.la1.Location = new System.Drawing.Point(1083, 262);
             this.la1.Name = "la1";
-            this.la1.Size = new System.Drawing.Size(46, 12);
+            this.la1.Size = new System.Drawing.Size(58, 15);
             this.la1.TabIndex = 4;
             this.la1.Text = "가로(x)";
             // 
             // la2
             // 
             this.la2.AutoSize = true;
-            this.la2.Location = new System.Drawing.Point(948, 238);
+            this.la2.Location = new System.Drawing.Point(1083, 298);
             this.la2.Name = "la2";
-            this.la2.Size = new System.Drawing.Size(46, 12);
+            this.la2.Size = new System.Drawing.Size(57, 15);
             this.la2.TabIndex = 5;
             this.la2.Text = "세로(y)";
             // 
             // la3
             // 
             this.la3.AutoSize = true;
-            this.la3.Location = new System.Drawing.Point(948, 266);
+            this.la3.Location = new System.Drawing.Point(1083, 332);
             this.la3.Name = "la3";
-            this.la3.Size = new System.Drawing.Size(46, 12);
+            this.la3.Size = new System.Drawing.Size(57, 15);
             this.la3.TabIndex = 6;
             this.la3.Text = "높이(z)";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1160, 743);
+            this.ClientSize = new System.Drawing.Size(1326, 929);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.la3);
@@ -162,6 +168,7 @@ namespace Test1
             this.Controls.Add(this.txtY);
             this.Controls.Add(this.txtX);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
