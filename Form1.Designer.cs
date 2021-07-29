@@ -120,7 +120,7 @@ namespace Test1
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(91, 92);
             this.button2.TabIndex = 8;
-            this.button2.Text = "변경";
+            this.button2.Text = "지우기";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -170,6 +170,7 @@ namespace Test1
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

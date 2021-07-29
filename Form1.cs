@@ -17,12 +17,9 @@ namespace Test1
         int x1 = 80, y1 = 90;
         int x2 = 180, y2 = 120, x3 = 120, x4 = 220;
 
-        int  z1 = 190, z2 = 220;
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Application.Restart();
-        }
+        int z1 = 190, z2 = 220;
+
 
         public Form1()
         {
@@ -51,7 +48,7 @@ namespace Test1
 
 
                 x2 = x1 + x;
-                x4 = x3 + x;
+               // x4 = x3 + x;
 
                 z1 = z1 + z;
                 z2 = z2 + z;
@@ -88,6 +85,7 @@ namespace Test1
                 txtX.Clear();
                 txtY.Clear();
                 txtZ.Clear();
+
             }
             catch (Exception)
             {
@@ -95,7 +93,18 @@ namespace Test1
                 //throw;
             }
 
-           
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            fClearPanel();
+        }
+
+        private void fClearPanel()
+        {
+            panel1.Invalidate();
+            Refresh();
+        }
+
     }
 }
